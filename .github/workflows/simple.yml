@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-    runs-on: ubantu-latest
+    runs-on: Ubuntu 18.04
     steps:
       - name: echo a string
         run: echo "Hello World"
