@@ -5,8 +5,9 @@ on:
   pull_request:
     types: [closed, assigned, opened, reopened]
   issues:
-    types: [opened, edited, closed, reopened, assigned]
-
+    types: 
+      - opened
+      - reopened
 jobs:
   run-github-actions:
     runs-on: Ubuntu-latest
